@@ -7,7 +7,7 @@ function changeState(state, action){
       default:
         return state;
     }
-  }
+  } 
 
 function dispatch(action){
     state = changeState(state, action)
